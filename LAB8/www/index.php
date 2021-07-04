@@ -2,7 +2,7 @@
 echo "Hello World!!";
 
 $a = 5;
-$b = "Fluk";
+$b = "PEE";
 $c = 8.32;
 
 echo $a . $b;
@@ -12,7 +12,7 @@ echo "<br>";
 echo $c + $a;
 echo "<br>";
 
-$array = array(5,8.32."Fluk");
+$array = array(5,8.32."PEE");
 echo $array[1] . "<br>";
 echo $array[2] . "<br>";
 
@@ -43,7 +43,7 @@ $jObj = json_decode($jStr);
 echo $jObj->one . "<br>";
 
 /////////// control /////////////
-if($a == "Fluk"){
+if($a == "PEE"){
     echo "TRUE";
 }
 else{
@@ -52,11 +52,11 @@ else{
 
 // short term of if ---> ()?true:false
 echo "<br>";
-echo ($b == "Fluk")?"TRUE":$b;
+echo ($b == "PEE")?"TRUE":$b;
 
 echo "<hr>";
 for($i = 0; $i < 5; $i++){
-    echo $i . ".)Fluk <br>";
+    echo $i . ".)PEE <br>";
 }
 
 foreach($jObj as $key => $val){
